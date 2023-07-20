@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+    padding: 38px 240px;
+    align-items: center;
+}
+
+.icon-title {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.gamer {
+    color: #FF42A5;
+}
+
+.title-text {
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+nav>ul {
+    list-style-type: none;
+
+}
+
+nav li {
+    display: inline;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 1.12rem;
+    font-weight: 500;
+    text-align: center;
+    padding-left: 32px;
+}
+
+.shaded-header {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 16px 24px;
+    /* margin: 0; */
+
+}
+
+.youtube-header,
+.tiktok-header,
+.shader-header-text {
+    padding: 0;
+    margin: 0;
+}
+
+.youtube-header {
+    width: 33.916px;
+    height: 24px;
+    padding-left: 24px;
+}
+
+.tiktok-header {
+    width: 24px;
+    height: 24px;
+    padding-left: 16px;
+}
+
+.shader-header-text {
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* main section styles */
+.main {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.header-2 {
+    background-image: url(../images/Group\ 14.png);
+    background-repeat: no-repeat;
+    width: 901px;
+    height: 700px;
+    margin-top: 0;
+}
+
+.texts {
+    /* text-align: center; */
+}
+
+.play-like-the-goat {
+    padding-top: 140px;
+    margin: 0;
+    color: #0B0223;
+    /* text-align: center; */
+    font-size: 3rem;
+    font-weight: 600;
+    padding-bottom: 4px;
+}
+
+.goat {
+    /* text-align: center; */
+    margin: 0;
+    font-size: 5.93rem;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 24px;
+    /* padding-top: 0; */
+}
+
+.header-2 {
+    display: flex;
+    gap: 364px;
+}
+
+.header-pic {
+    padding-top: 19px;
+}
+
+.header-2-p {
+    padding-bottom: calc(40px - 17px);
+}
+
+.header-2-p p {
+    color: #534C64;
+    /* text-align: center; */
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.p-icon-text {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.p-icon-text img {
+    width: 24px;
+    height: 24px;
+}
+
+.p-icon-text {
+    padding-bottom: 17px;
+}
+
+.header-texts {
+    padding-left: 240px;
+}
+
+/* .texts{
+    width: 100%;
+} */
+
+.buttons {
+    display: flex;
+    gap: 24px;
+}
+
+.btn-primary {
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 20px 40px;
+    border: 0;
+    border-radius: 48px;
+    background-color: #FF42A5;
+    white-space: nowrap;
+}
+
+.btn-secondary {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 40px;
+    border: 0;
+    border-radius: 48px;
+    background: #4EC5F7;
+    white-space: nowrap;
+}
+
+/* we are gamer section styles */
+.we-are-gamer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+
+
+.we-are-gamer-title {
+    text-align: right;
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    height: 56px;
+    padding-bottom: 24px;
+    padding-top: 95px;
+}
+
+.we-are-gamer-text {
+    color: #534C64;
+    text-align: right;
+    font-size: 1.12rem;
+    font-weight: 400;
+    line-height: 30px;
+    width: 520px;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 32px;
+}
+
+#btn-funny {
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.we-are-gamer-image {
+    margin: 0;
+    padding: 0;
+}
+
+.we-are-gamer-text-2 {
+    color: #534C64;
+    text-align: right;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 45px;
+    margin: 0;
+}
+
+.we-are-gamer-text-3 {
+    color: #534C64;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 45px;
+    margin: 0;
+}
+
+/* Funny video section styles */
+
+.funny-video-title {
+    color: #0B0223;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+
+    header,
+    .header-nav {
+        flex-direction: column;
+        margin: 0 auto;
+
+    }
+
+    .title-text {
+        padding-top: 100px;
+    }
+
+    /* .header-nav{
+        gap: 0;
+    } */
+
+    header {
+        padding: 0;
+        box-shadow: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav li {
+        display: block;
+        text-align: center;
+        padding: 10px 0;
+        margin: 0;
+    }
+
+    nav ul {
+        padding: 0;
+    }
+
+}
+
+
+@media screen and (min-width:576px) and (max-width: 990px) {
+
+    header,
+    .header-nav {
+        flex-direction: column;
+        margin: 0 auto;
+
+    }
+
+    /* .header-nav{
+        gap: 0;
+    } */
+
+    header {
+        padding: 0;
+        box-shadow: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav li {
+        display: block;
+        text-align: center;
+        padding: 10px 0;
+        margin: 0;
+    }
+
+    nav ul {
+        padding: 0;
+    }
+}
